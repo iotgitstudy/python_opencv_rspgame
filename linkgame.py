@@ -76,6 +76,8 @@ ball_images = [
     pygame.image.load(os.path.join(image_path, "balloon4.png"))
 ]
 
+#공 크기에 따른 최초 스피드
+ball_speed_y = [-18, -15, -12, -9] # index 0 1 2 3에 해당하는 값
 
 max_num_hands = 1
 gesture = {
