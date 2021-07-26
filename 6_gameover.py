@@ -126,7 +126,7 @@ cap = cv2.VideoCapture(0)
 
 running = True
 while running:
-    dt = clock.tick(30)
+    dt = clock.tick(7)
     
     ret, img = cap.read()
     if not ret:
