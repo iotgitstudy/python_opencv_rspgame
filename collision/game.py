@@ -1,9 +1,9 @@
 import os
 import pygame
-
 ##############################################################
 # 기본 초기화 (반드시 해야 하는 것들)
 pygame.init()
+
 
 # 화면 크기 설정
 screen_width = 1200 # 가로 크기
@@ -41,6 +41,7 @@ running = True
 while running: 
 
     #화면에 그리기
+
     dt = clock.tick(20)
     screen.blit(background, (background_x_pos, background_y_pos))
     screen.blit(background2, (background2_x_pos, background2_y_pos))
@@ -50,10 +51,6 @@ while running:
         background_x_pos = background2_width
 
     
-
-    
-
-
 
 
     background_x_pos -= background_speed
@@ -71,8 +68,6 @@ while running:
 
 
 
-    # pygame.time.delay(2000)
-
-    # pygame.quit()
+    
 
 # 2초 대기
