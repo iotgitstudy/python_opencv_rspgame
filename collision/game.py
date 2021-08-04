@@ -7,7 +7,7 @@ pygame.init()
 
 # 화면 크기 설정
 screen_width = 1200 # 가로 크기
-screen_height = 800 # 세로 크기
+screen_height = 700 # 세로 크기
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 # 화면 타이틀 설정
@@ -36,6 +36,14 @@ background2_height = background2_size[1]
 background2_x_pos = 0
 background2_y_pos = 0
 background2_speed = 5
+#캐릭터 만들기
+me = pygame.image.load(os.path.join(image_path, "character.png"))
+me_size = me.get_rect().size
+me_width = me_size[0]
+me_height = me_size[1]
+me_x_pos = 0
+me_y_pos = (screen_height - me_height)/2
+me_speed = 5
 
 running = True
 while running: 
@@ -45,6 +53,8 @@ while running:
     dt = clock.tick(20)
     screen.blit(background, (background_x_pos, background_y_pos))
     screen.blit(background2, (background2_x_pos, background2_y_pos))
+    screen.blit(me, (me_x_pos, me_y_pos))
+
     if background_x_pos == 0:
         background2_x_pos = background_width
     if background2_x_pos == 0:
