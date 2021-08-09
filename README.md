@@ -3,5 +3,4 @@
 
 <h1><예시></h1>
 
-
-<video src="https://youtu.be/qQaZYZNE-DE">동영상 지원 불가</video>
+[![video](https://www.youtube.com/watch?v=qQaZYZNE-DE)](https://img.youtube.com/vi/qQaZYZNE-DE/0.jpg)
