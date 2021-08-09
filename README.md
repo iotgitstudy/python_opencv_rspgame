@@ -3,4 +3,4 @@
 
 <h1><예시></h1>
 
-[![video](https://www.youtube.com/watch?v=qQaZYZNE-DE)](https://img.youtube.com/vi/qQaZYZNE-DE/0.jpg)
+[![video](https://img.youtube.com/vi/qQaZYZNE-DE/0.jpg)](https://www.youtube.com/watch?v=qQaZYZNE-DE)
